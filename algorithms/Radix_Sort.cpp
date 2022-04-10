@@ -1,10 +1,10 @@
 /*
-    Time Compleixty: Long story, bro! See http://www.geeksforgeeks.org/radix-sort/
+    Time Compleixty: Long story See http://www.geeksforgeeks.org/radix-sort/
 */
  
 void countSort(int* arr, int n, int exp) {
     int output[n]; // output array
-    int i, count[10] = {0};
+    int i, count[10] = {0}; // integrate the i and count to 10 and 0
  
     // Store count of occurrences in count[]
     for (i = 0; i < n; i++)
